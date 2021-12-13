@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_program", "UnityLesson_CSharp_program\UnityLesson_CSharp_program.csproj", "{D31291ED-712E-444B-9ABC-DEA22BE097B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_program", "UnityLesson_CSharp_program\UnityLesson_CSharp_program.csproj", "{D31291ED-712E-444B-9ABC-DEA22BE097B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_IF", "UnityLesson_CSharp_IF\UnityLesson_CSharp_IF.csproj", "{1AC035E4-A05A-4859-92B5-00AC6A6F36A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_IF", "UnityLesson_CSharp_IF\UnityLesson_CSharp_IF.csproj", "{1AC035E4-A05A-4859-92B5-00AC6A6F36A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Variables", "UnityLesson_CSharp_Variables\UnityLesson_CSharp_Variables.csproj", "{3812F6EA-05D3-4FF8-9D9E-61A9F4ABB5ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_Variables", "UnityLesson_CSharp_Variables\UnityLesson_CSharp_Variables.csproj", "{3812F6EA-05D3-4FF8-9D9E-61A9F4ABB5ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Function", "UnityLesson_CSharp_Function\UnityLesson_CSharp_Function.csproj", "{1D352D7C-FEDC-4E97-A8F6-605021AA8B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_Function", "UnityLesson_CSharp_Function\UnityLesson_CSharp_Function.csproj", "{1D352D7C-FEDC-4E97-A8F6-605021AA8B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_VariableAndFunction", "UnityLesson_CSharp_VariableAndFunction\UnityLesson_CSharp_VariableAndFunction.csproj", "{9B324D2B-FE1B-4B8E-BB83-143343377EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Class_Object_Instance", "UnityLesson_CSharp_Class_Object_Instance\UnityLesson_CSharp_Class_Object_Instance.csproj", "{6CB5C0A3-9675-44A8-ACD0-627F275B6947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Variable_Function_Instance", "UnityLesson_CSharp_Variable_Function_Instance\UnityLesson_CSharp_Variable_Function_Instance.csproj", "{7A38481F-86B2-43CF-90A2-7A168D299C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_StaticExample", "UnityLesson_CSharp_StaticExample\UnityLesson_CSharp_StaticExample.csproj", "{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{1D352D7C-FEDC-4E97-A8F6-605021AA8B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D352D7C-FEDC-4E97-A8F6-605021AA8B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D352D7C-FEDC-4E97-A8F6-605021AA8B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B324D2B-FE1B-4B8E-BB83-143343377EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B324D2B-FE1B-4B8E-BB83-143343377EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B324D2B-FE1B-4B8E-BB83-143343377EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B324D2B-FE1B-4B8E-BB83-143343377EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB5C0A3-9675-44A8-ACD0-627F275B6947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB5C0A3-9675-44A8-ACD0-627F275B6947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB5C0A3-9675-44A8-ACD0-627F275B6947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB5C0A3-9675-44A8-ACD0-627F275B6947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A38481F-86B2-43CF-90A2-7A168D299C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A38481F-86B2-43CF-90A2-7A168D299C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A38481F-86B2-43CF-90A2-7A168D299C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A38481F-86B2-43CF-90A2-7A168D299C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
