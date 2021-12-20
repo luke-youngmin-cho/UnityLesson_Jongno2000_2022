@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_Variable
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_StaticExample", "UnityLesson_CSharp_StaticExample\UnityLesson_CSharp_StaticExample.csproj", "{3245BD17-CDFE-4876-8B4B-9E2BFB107F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_ClassExample1", "UnityLesson_CSharp_ClassExample1\UnityLesson_CSharp_ClassExample1.csproj", "{86B592FB-A25D-4A0A-B4D0-B5FB4CBBC9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_ClassExample1", "UnityLesson_CSharp_ClassExample1\UnityLesson_CSharp_ClassExample1.csproj", "{86B592FB-A25D-4A0A-B4D0-B5FB4CBBC9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Operator", "UnityLesson_CSharp_Operator\UnityLesson_CSharp_Operator.csproj", "{9412F212-8559-41BF-854B-48965394B668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{86B592FB-A25D-4A0A-B4D0-B5FB4CBBC9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B592FB-A25D-4A0A-B4D0-B5FB4CBBC9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B592FB-A25D-4A0A-B4D0-B5FB4CBBC9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9412F212-8559-41BF-854B-48965394B668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9412F212-8559-41BF-854B-48965394B668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9412F212-8559-41BF-854B-48965394B668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9412F212-8559-41BF-854B-48965394B668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
