@@ -12,6 +12,13 @@ namespace UnityLesson_CSharp_Operator
         {
             return a + b;
         }
+        // 함수 오버로딩
+        // 인수가 다르지만 같은 이름의 함수를 여러개 만들수 있는 기능
+        static public float Sum(float a, float b)
+        {
+            return a + b;
+        }
+
         // 뺄셈
         static public int Sub(int a, int b)
         {

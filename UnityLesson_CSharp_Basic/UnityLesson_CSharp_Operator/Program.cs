@@ -10,6 +10,9 @@ namespace UnityLesson_CSharp_Operator
             int b = 5;
             int c;
 
+            float a_f = 14.0f;
+            float b_f = 5.0f;
+            float c_f;
             // 산술 연산
             // 덧셈, 뺄셈, 나눗셈, 곱셈, 나머지셈
             //========================================================
@@ -17,6 +20,7 @@ namespace UnityLesson_CSharp_Operator
             // 덧셈
             c = a + b;
             c = FunctionForOperators.Sum(a,b);
+
             Console.WriteLine(c);
             // 뺄셈
             c = a - b;
