@@ -93,10 +93,33 @@ namespace UnityLesson_CSharp_Collection
             // '사과나무에서 열리는 열매' 를 검색해서 '사과'를 찾거나 
             // '사과 : 사과나무에서 열리는 열매' 자체를 검색하지 않는것과 같다고 생각하면 된다.  
 
+            //==============================================================
+            //Queue ( List 와 비슷하나 FIFO (First Input First Output)
+            //==============================================================
+            Queue<int> _queue = new Queue<int>();
 
+            _queue.Enqueue(10);
+            _queue.Enqueue(20);
+            _queue.Enqueue(30);
 
-            // Stack
-            // Queue
+            Console.WriteLine(_queue.Peek()); // 가장 첫번째에 있는 값을 리턴
+            Console.WriteLine(_queue.Dequeue()); // 가장 첫번째에 있는 값을 Queue에서 빼고 리턴
+            Console.WriteLine(_queue.Dequeue());
+            Console.WriteLine(_queue.Dequeue());
+
+            //==============================================================
+            //Stack ( List 와 비슷하나 LIFO (Last Input First Output)
+            //==============================================================
+            Stack<int> _stack = new Stack<int>();
+
+            _stack.Push(10);
+            _stack.Push(20);
+            _stack.Push(30);
+
+            Console.WriteLine(_stack.Peek()); // 가장 마지막에 있는 값을 리턴
+            Console.WriteLine(_stack.Pop()); // 가장 마지막에 있는 값을 Stack 에서 빼고 리턴
+            Console.WriteLine(_stack.Pop());
+            Console.WriteLine(_stack.Pop());
 
         }
     }
